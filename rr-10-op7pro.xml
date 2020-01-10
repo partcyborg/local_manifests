@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote
+      name="petercxy"
+      fetch="https://github.com/PeterCxy"
+      revision="lineage-17.0" />
+   <remote
+      name="partcyborg"
+      fetch="https://github.com/partcyborg"
+      revision="op7pro-10" />
+   <remote
+      name="lineage"
+      fetch="https://github.com/LineageOS"
+      revision="lineage-17.0" />
+   <project path="device/oneplus/guacamole" name="android_device_oneplus_guacamole" remote="partcyborg" />
+   <project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="partcyborg"/>
+   <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="petercxy"/>
+   <project path="vendor/oneplus" name="proprietary_vendor_oneplus-1" remote="petercxy" />
+   <project path="device/oneplus/common" name="android_device_oneplus_common" remote="lineage" />
+
+</manifest>
